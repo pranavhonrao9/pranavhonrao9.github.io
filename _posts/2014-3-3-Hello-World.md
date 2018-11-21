@@ -1,10 +1,69 @@
----
-layout: post
-title: You're up and running!
----
+# Seattle_Airbnb_DataScienceProject
+https://www.kaggle.com/airbnb/seattle/home
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+# Context
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+Since 2008, guests and hosts have used Airbnb to travel in a more unique, personalized way. As part of the Airbnb Inside initiative, this dataset describes the listing activity of homestays in Seattle, WA.
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+# Content
+
+The following Airbnb activity is included in this Seattle dataset:
+
+a)Listings, including full descriptions and average review score 
+
+b)Reviews, including unique id for each reviewer and detailed comments 
+
+c)Calendar, including listing id and the price and availability for that day
+
+# Inspiration
+
+a)How  room avaiablity varies through out the year in Seattle?
+
+b)Mean prices analysis per month?
+
+c)Price detection on the basis of available dataset?
+
+
+# Data Sources
+
+https://www.kaggle.com/airbnb/seattle
+
+# Libraries
+
+http://www.numpy.org/
+https://pandas.pydata.org/
+https://matplotlib.org/
+https://scikit-learn.org/stable/
+
+
+
+# Analysis
+After the data exploration and analysis , following is the analysis I was able derive:
+
+a)How  room avaiablity varies through out the year in Seattle?
+![image](https://user-images.githubusercontent.com/8425221/48756454-40ef2080-ec67-11e8-97d2-8e50971c951d.png)
+From the above graph, I can see January ,Feburary has less rooms available which make sense to me. As people would not prefer to put home on airbnb becuase of winter season. Also, in summer days Seattle being one of the famous cities to visit ,less rooms are avaiable.
+
+Interesingly , room availability do not vary that much beside March and December. I think ,in march people start putting there home on Airbnb listings but do not get that much of response causing high number of rooms avaiable. This is maybe because ,people travel less during that period. Surprisingly for December, room availability is high.
+
+
+b)Mean prices analysis per month?
+
+![image](https://user-images.githubusercontent.com/8425221/48756822-9d9f0b00-ec68-11e8-9ef2-cf67202ed274.png)
+
+From above figure , we can get precise idea about mean prices analysis per month ,when prices are low in the winter and high in summer period.
+
+
+
+
+c)Price variance with the number of bedrooms:
+
+![image](https://user-images.githubusercontent.com/8425221/48756772-69c3e580-ec68-11e8-816c-66c6fd775273.png)
+
+
+
+
+# Reference:
+1. https://www.kaggle.com/airbnb/seattle/home
+2. https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html
+3. http://python-graph-gallery.com/boxplot/#prettyPhoto
